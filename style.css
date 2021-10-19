@@ -372,6 +372,9 @@ body {
 .about-speaker__list-item::before {
   background-image: url(./img/list-marker_green.svg);
 }
+.about-speaker__list-item a {
+  color: var(--theme-green-color);
+}
 @media screen and (max-width: 920px) {
   .about-speaker {
     flex-direction: column-reverse;
